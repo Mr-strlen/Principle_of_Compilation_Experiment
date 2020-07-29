@@ -1,0 +1,7 @@
+var i:integer;
+begin
+  for i:=0 step 1 until 10 do
+    begin
+      write(i);
+    end
+end.

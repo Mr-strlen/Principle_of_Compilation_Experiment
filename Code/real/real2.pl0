@@ -1,0 +1,5 @@
+const n=1.0:real;
+const a=1.2,b=2.3:real;
+begin
+  write(n);
+end.

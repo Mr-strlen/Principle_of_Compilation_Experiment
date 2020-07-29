@@ -1,0 +1,10 @@
+const up=5:integer;
+var
+a:array[1..up] of integer;
+b:integer;
+begin
+  b:=2;
+  a[2]:=b;
+  a[2+b]:=a[b]+a[b+1];
+  write(a[2+b]);
+end.

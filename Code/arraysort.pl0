@@ -1,0 +1,32 @@
+const n=1;
+var 
+a:array[1..3] of integer;
+b,i,j:integer;
+begin
+	read(a[1]);
+	read(a[2]);
+	read(a[3]);
+	write('before sort:');
+	for i:=n step 1 until 4 do
+		begin
+		  write(a[i]);
+		end;	
+	for i:=n step 1 until 3 do
+		begin
+			for j:=2 step 1 until 4 do
+				begin
+					if a[i]>a[j] 
+						then
+							begin		
+								b:=a[i];
+								a[i]:=a[j];
+								a[j]:=b;								
+							end;
+				end;
+		end;	
+	write('after sort:');
+	for i:=1 step 1 until 4 do
+		begin
+		  write(a[i]);
+		end;
+end.

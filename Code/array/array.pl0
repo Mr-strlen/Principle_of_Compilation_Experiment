@@ -1,0 +1,11 @@
+var 
+a:array[1..100] of integer;
+b:integer;
+begin
+  b:=2;
+  a[2]:=b;
+  a[2+b]:=a[b]+a[b+1];
+  a[3]:=1+b;
+  write(a[2+b]);
+  write(a[3]);
+end.

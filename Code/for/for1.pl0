@@ -1,0 +1,9 @@
+const n=2:integer;
+var i;
+begin
+  for i:=n step n until 10 do
+    begin
+      write(i);
+      write(i+1);
+    end
+end.

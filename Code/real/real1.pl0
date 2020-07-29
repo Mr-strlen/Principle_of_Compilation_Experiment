@@ -1,0 +1,9 @@
+var a,b:integer; 
+var c,d:real;
+begin
+  a:=1;
+  b:=2;
+  c:=2.3;
+  d:=2+c;
+  write('a=',a,'  d=',d);
+end.

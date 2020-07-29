@@ -1,0 +1,6 @@
+var a,b;
+begin
+  a:=5;
+  b:=3;
+  write('a=',a,' b=',b,' result=',a+b);
+end.

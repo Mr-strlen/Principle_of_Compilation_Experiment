@@ -1,0 +1,10 @@
+var a,b:integer; c,d:real;
+begin
+  a:=1;
+  b:=2;
+  c:=2.3;
+  d:=a+c;
+  write(a,d);
+  read(c);
+  write(c);
+end.
